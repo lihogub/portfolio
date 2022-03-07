@@ -1,5 +1,5 @@
 const Contacts = () => (
-    <section className="max-w-md mx-auto px-8 py-4 my-2 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <section id="contacts" className="max-w-md mx-auto px-8 py-4 my-2 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <p className="block mb-2 text-xl tracking-wide font-semibold">Contacts</p>
         <hr/>
         <div className="grid grid-cols-1 md:grid-cols-2">

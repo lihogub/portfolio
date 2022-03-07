@@ -1,5 +1,5 @@
 const Education = () => (
-    <section className="max-w-md mx-auto px-8 py-4 my-2 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <section id="education" className="max-w-md mx-auto px-8 py-4 my-2 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <p className="block mb-2 text-xl tracking-wide font-semibold">Education</p>
         <hr/>
         <div className="mt-3 mb-1 flex justify-between">
