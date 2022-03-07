@@ -48,7 +48,7 @@ const ContestItem = ({company, date, job, project, team, taskList, technologyLis
                 </td>
             </tr>
         </table>
-        <Carousel dynamicHeight={true} infiniteLoop={true} autoPlay={true} interval={5000}>
+        <Carousel className="my-2" dynamicHeight={true} infiniteLoop={true} autoPlay={true} interval={5000}>
             {imageList.map(image => (
                 <div>
                     <img src={image} alt="hackathone"/>
