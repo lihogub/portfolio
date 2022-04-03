@@ -6,12 +6,18 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Contests from "./components/Contests";
+import Skills from "./components/Skills";
+import About from "./components/About";
+import Books from "./components/Books";
 
 
 const App = () => (
     <>
         <Header/>
         <Contacts/>
+        <About/>
+        <Books/>
+        <Skills/>
         <Contests/>
         <Experience/>
         <Education/>
