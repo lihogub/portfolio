@@ -6,6 +6,9 @@ import CyberGarden15_03 from "../assets/cybergarden15-03.jpg";
 import CyberGarden14_01 from "../assets/cybergarden14-01.jpg";
 import CyberGarden14_02 from "../assets/cybergarden14-02.jpg";
 import CyberGarden14_03 from "../assets/cybergarden14-03.jpg";
+import vrn_01_01 from "../assets/vrn-01-01.jpg";
+import vrn_01_02 from "../assets/vrn-01-02.jpg";
+import vrn_01_03 from "../assets/vrn-01-03.jpg";
 
 const Contests = () => (
     <section id="contests"
@@ -23,6 +26,30 @@ const Contests = () => (
             <img src={ExpandIcon} width="24" alt="expand button"/>
         </div>
         <div className="collapse" id="collapseContests">
+            <hr className="my-2"/>
+            <ContestItem
+                company="The funnel of innovative startups, Retail, Hackathone"
+                date="11/02/2022 - 13/02/2022"
+                job="Team-lead, Frontend & DevOps Developer"
+                project='Ecological platform for companies and individuals in the industry of separate garbage collection'
+                team="5 members: 3 frontend, 2 data science"
+                taskList={[
+                    "Designed application business-logic.",
+                    "Designed application service layer.",
+                    "Deployed application using Docker."
+                ]}
+                technologyList={[
+                    "Typescript",
+                    "ReactJS, Firebase, Docker",
+                    "WebStorm, Postman"
+                ]}
+                achievementList={[
+                    "Second place."
+                ]}
+                imageList={[
+                    vrn_01_01, vrn_01_02, vrn_01_03
+                ]}
+            />
             <hr className="my-2"/>
             <ContestItem
                 company="Cyber Garden XV, Hackathone"
